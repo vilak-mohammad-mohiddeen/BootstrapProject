@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <nav class="navbar navbar-dark bg-primary navbar-expand-sm fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
@@ -79,7 +79,11 @@
                 <h5>Map of our Location</h5>
             </div>
             <div class="col-12 col-sm-11 offset-sm-1">
-                Button group goes here
+                <div class="btn-group" role="group">
+                    <a href="" class="btn btn-success" href="tel:+919581954888"><i class="fa fa-phone"> Call</i></a>
+                    <a href="" class="btn btn-primary"><i class="fa fa-skype"> Skype</i></a>
+                    <a href="" class="btn btn-info" href="mailto:confusion@food.net"><i class="fa fa-envelope-o"> Mail</i></a>
+                </div>
             </div>
         </div>
 
@@ -88,7 +92,57 @@
               <h3>Send us your Feedback</h3>
            </div>
             <div class="col-12 col-md-9">
-                Form goes here
+                <form >
+                    <div class="row form-group">
+                        <label for="first" class="col-12 col-md-2 col-form-label">First Name</label>
+                        <div class="col-12 col-md-10">
+                            <input type="text" id="first" placeholder="FirstName" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="last" class="col-12 col-md-2 col-form-label">Last Name</label>
+                        <div class="col-12 col-md-10">
+                            <input type="text" placeholder="LastName" id="last" class="form-control">
+
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="number" class="col-2 col-md-2 col-form-label">Mobile</label>
+                        <div class="col-4 col-md-4">
+                            <input type="text" placeholder="MobileNumber" id="number" class="form-control">
+                        </div>
+                        <label for="mail" class="col-2 col-md-2 col-form-label">Mail</label>
+                        <div class="col-4 col-md-4">
+                            <input type="text" placeholder="Mail" id="mail" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-12 col-md-6 offset-md-2 form-check">
+                            <input type="checkbox" class="form-check-input" id="checking">
+                            <label for="checkng" class="form-check-label">Did You Enjoyed Using This App?</label>
+
+                     </div>
+                         <div class="col-12 col-md-4">
+                            <select name="form-group">
+                                <option value="Good">Good</option>
+                                <option value="Excellent">Excellent</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-12 col-md-8">
+                            <textarea  id="textarea"rows="10" class="form-control order-md-last"></textarea>
+                        </div>
+                        <label for="textarea" class="col-12 col-md-2 col-form-label order-md-first">Feedback</label>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-12 col-md-6 offset-md-2">
+                            <button class="btn btn-info" type="submit">Submit</button>
+                        </div>
+                    </div>
+
+                </form>
             </div>
              <div class="col-12 col-md">
             </div>
