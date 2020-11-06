@@ -26,8 +26,6 @@
                     <li class="nav-item"><a class="nav-link active" href="/aboutus.html"><i class="fa fa-info"></i> About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list"></i> Menu</a></li>
                     <li class="nav-item"><a class="nav-link" href="/contactus.html"><i class="fa fa-address-card"></i> Contact</a></li>
-    
-    
                 </ul>
             </div>
            
@@ -86,45 +84,52 @@
         <div class="row row-content">
             <div class="col-12">
                 <h2>Corporate Leadership</h2>
-                <ul class="nav nav-tabs" role="tablist" id="myTab">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="pet" href="#peter"
-                         role="tab"  data-toggle="tab" aria-selected="true">Peter Pan, CEO
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="dan" href="#danny" role="tab"
-                        data-toggle="tab" aria-selected="false">Danny Witherspoon, CFO
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="agu" href="#agumbe" role="tab"
-                        data-toggle="tab" aria-selected="false">Agumbe Tang, CTO
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="alb" href="#alberto" role="tab"
-                        data-toggle="tab" aria-selected="false">Alberto Somayya, Exec. Chef
-                        </a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div  role="tabpanel" class="tab-pane active show fade" id="peter" aria-labelledby="pet">
-                        <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
-                        <p class="d-none d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+                
+                <div id="accordian">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="mb-0"><button class="btn" data-toggle="collapse" data-target="#peter">Peter Pan <small>Chief Epicurious Officer</small></button> </h3>
+                        </div>
+                        <div class="collapse show " id="peter" data-parent="#accordian">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade "  id="danny" aria-labelledby="dan">
-                        <h3>Dhanasekaran Witherspoon <small>Chief Food Officer</small></h3>
-                        <p class="d-none d-sm-block">Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p>
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="mb-0"><button class="btn collapsed" data-toggle="collapse" data-target="#danny" >Dhanasekaran Witherspoon <small>Chief Food Officer</small></button> </h3>
+                        </div>
+                        <div class="collapse"  id="danny" data-parent="#accordian">
+                        
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p>
+                            </div>
+                            
+                        </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade" id="agumbe" aria-labelledby="agu">
-                        <h3>Agumbe Tang <small>Chief Taste Officer</small></h3>
-                        <p class="d-none d-sm-block">Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my lick.</em></p>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="mb-0"><button class="btn collapsed" data-toggle="collapse" data-target="#agumbe" data-parent="#accordian">Agumbe Tang <small>Chief Taste Officer</small></button> </h3>
+                        </div>
+                    
+                        <div class="collapse" id="agumbe">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my lick.</em></p>
+                            </div>
+                        </div>
                     </div>
-                    <div  role="tabpanel" class="tab-pane fade" id="alberto" aria-labelledby="alb">
-                        <h3>Alberto Somayya <small>Executive Chef</small></h3>
-                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, <em>Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</em></p>
-                    </div>                                                           
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="mb-0"><button class="btn collapsed" data-toggle="collapse" data-target="#alberto" data-parent="#accordian"> Alberto Somayya <small>Executive Chef</small></button></h3>
+                        </div>
+                        <div  class="collapse" id="alberto">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, <em>Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</em></p>
+                            </div>
+                        </div>          
+                    </div>                                                 
                 </div>          
             </div>
        </div>
@@ -169,7 +174,7 @@
 
     </div>
 
-    <footer class="foote">
+    <footer class="footer">
         <div class="container">
             <div class="row">             
                 <div class="col-4 offset-1 col-sm-2">
@@ -210,9 +215,10 @@
            </div>
         </div>
     </footer>
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/jquery/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
